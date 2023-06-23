@@ -1,7 +1,45 @@
-html {
-  max-width: 720px;
+.card{
+  background-color: chartreuse;
+  font-family: "Roboto", Georgia, Times, 'Times New Roman', serif;
+  font-display: swap;} 
+.card> p{
+  color: rgb(195, 215, 16);
+  -webkit-text-fill-color: blueviolet;
+  -webkit-text-stroke: 0.4px red;
+  text-align: center;
+  text-decoration: line-through dashed blue;
+  text-emphasis:triangle #112233;
+
+  
 }
 
-body {
-  background: #fff;
+p:focus, p:hover {
+  -webkit-text-fill-color: rgb(166, 110, 20);
+  -webkit-text-stroke: 0.4px rgb(0, 255, 89);
+ 
+  writing-mode: vertical-rl;
+  letter-spacing: 1em;
+  text-decoration-line: overline;
+ 
+ 
+
 }
+
+pre{
+  text-transform: capitalize;
+  tab-size: 5;
+ font-stretch: 50%;
+ font-size: large;
+ font-weight: lighter;
+ display: none;
+}
+
+.span_inline{
+  display: block;
+  width:min-content;
+  margin: auto;
+  background-color: aquamarine;
+  
+}
+
+.gh{background-color: blue;}

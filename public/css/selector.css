@@ -1,0 +1,60 @@
+html {
+  max-width: 720px;
+ 
+}
+
+body {
+  background: #fff;
+}
+
+.card-dark{
+  background: rgb(68, 58, 58);
+}
+
+.input-dark{
+  background: rgb(219, 207, 207);
+}
+
+.input-dark[tex]{
+  background: rgb(165, 24, 24);
+}
+
+.input-dark[type="number"]{
+  background: rgb(118, 155, 5);
+}
+
+.img[alt~="5"]{
+  height: 500px;
+}
+button[class|="btn"]{
+  background: #fff;
+}
+
+button[class*="pr"]{
+  background: #63890a;
+}
+
+
+
+.par::before,
+.par::after{
+  content:"###"
+}
+.par::first-letter{
+  color: blue;
+}
+
+.para::first-line{
+  color:green
+}
+
+input::placeholder{
+  color: red;
+  background-color: black;
+}
+
+#test:target{background-color: black;}
+
+.link:link{background: #63890a; color: beige;}
+
+.card:focus-within{background-color: aqua;}

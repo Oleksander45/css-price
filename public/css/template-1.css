@@ -1,0 +1,141 @@
+.page{background-color: #ffff;}
+
+.page-content{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header{
+    padding: 24px;
+}
+
+.logo{
+  font-size: 17px;
+  
+}
+
+.divider{
+  height: 1px;
+  background-color: #DEE2E6;
+  margin: 0;
+}
+
+.nav{
+ 
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 16px;
+  color: #343A40;
+  padding: 0;
+ 
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.nav-vertical{
+  display: block;
+}
+
+.nav-inline>.nav-link:not(:last-child){
+ margin-right: 24px;
+}
+
+.nav-vertical>.nav-link:not(:last-child){
+  margin-bottom: 12px;
+ }
+
+ .head-nav-right {
+  margin-left: auto;
+  width: fit-content;
+ }
+
+ .page-block:not(:last-of-type) {
+  margin-bottom: 80px;
+ }
+ 
+footer {
+  padding: 24px 0;
+}
+
+.copyright{
+  font-size: 14px;
+  color: #6C757D;
+  display: block;
+  margin-top: 12px;
+}
+
+.foot-title{
+  color: #212529;
+  font-size: 20px;
+  margin-bottom: 12px;
+  display: block;
+  font-weight: 500;
+  
+}
+
+.hero-title{
+  color: #212529;
+  font-size: 56px;
+  font-weight: 500;
+  text-align: center;
+  
+}
+
+.hero-text{
+  color: #212529;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 585px;
+  margin: 0 auto;
+}
+
+.plans-card:not(:last-of-type){
+  margin-right: 24px;
+}
+
+.card-header {
+  font-size: 24px;
+  padding: 12px;
+  text-align: center;
+  color: #212529;
+}
+
+.card-b0dy{
+  padding: 24px;
+}
+
+.price, .description{
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.price-ammount{
+  font-size: 40px;
+  color: #212529;
+}
+
+.price_duration{
+  color: #6C757D;
+  font-size: 29px;
+}
+ul{padding: 0;}
+li:not(:last-of-type){margin-bottom: 12px;}
+
+.description_item{  
+  font-size: 16px;
+  color: #212529; 
+  }
+
+.card_button{
+  width: 100%;
+  display: block;
+  font-size: 19px;
+  padding: 9px;
+}
+
