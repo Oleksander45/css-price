@@ -86,6 +86,10 @@ footer {
   
 }
 
+.hero-title:hover{
+  text-shadow: 10px 10px 5px red  ;
+}
+
 .hero-text{
   color: #212529;
   font-size: 20px;
@@ -93,6 +97,19 @@ footer {
   text-align: center;
   max-width: 585px;
   margin: 0 auto;
+}
+
+.plans-card {
+  border: 1px dotted red;
+  border-radius: 20px 60px;
+  box-shadow: 5px 5px 10px 5px black;
+}
+
+.plans-card:hover{
+  outline: 3px solid blue;
+  outline-offset: 10px;
+  cursor:n-resize;
+
 }
 
 .plans-card:not(:last-of-type){
@@ -131,6 +148,10 @@ li:not(:last-of-type){margin-bottom: 12px;}
   font-size: 16px;
   color: #212529; 
   }
+
+.btn{
+  border-radius: 10px;
+}  
 
 .card_button{
   width: 100%;

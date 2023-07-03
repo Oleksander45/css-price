@@ -63,7 +63,7 @@
   width: fit-content;
  }
 
- .page-block:not(:last-child) {
+ .page-block {
   margin-bottom: 80px;
  }
  
