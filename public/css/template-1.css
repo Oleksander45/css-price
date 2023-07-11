@@ -20,9 +20,7 @@
   margin: 0;
 }
 
-.nav{
- 
-}
+
 
 .nav-link{
   text-decoration: none;
@@ -88,15 +86,25 @@ footer {
 
 .hero-title:hover{
   text-shadow: 10px 10px 5px red  ;
+  white-space: pre;
 }
 
 .hero-text{
   color: #212529;
   font-size: 20px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   max-width: 585px;
   margin: 0 auto;
+  background-color: #a1b7cc;
+  overflow: auto;
+  word-spacing: 10px;
+  width: 200px;
+  resize: both;
+  max-width: 250px;
+ 
+
+  
 }
 
 .plans-card {
@@ -110,6 +118,11 @@ footer {
   outline-offset: 10px;
   cursor:n-resize;
 
+}
+
+.plans-card:nth-child(2):hover{
+  background-color: aqua;
+  visibility:collapse;
 }
 
 .plans-card:not(:last-of-type){
