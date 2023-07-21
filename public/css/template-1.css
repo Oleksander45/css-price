@@ -81,6 +81,7 @@ footer {
   font-size: 56px;
   font-weight: 500;
   text-align: center;
+ 
   
 }
 
@@ -96,12 +97,19 @@ footer {
   text-align: left;
   max-width: 585px;
   margin: 0 auto;
-  background-color: #a1b7cc;
+ 
   overflow: auto;
   word-spacing: 10px;
-  width: 200px;
-  resize: both;
-  max-width: 250px;
+  border: 20px solid transparent;
+  padding: 40px;
+ 
+ 
+  
+  border-image-source: url("/img/LS.jpg");
+  border-image-width: 25%;
+  border-image-slice: 400;
+  border-image-repeat: repeat;
+
  
 
   

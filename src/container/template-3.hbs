@@ -1,0 +1,75 @@
+<div class="page-block">
+    <header class="header row g-0">
+        {{>logo}}
+        <nav class="header-nav col-9">
+            <div class="head-nav-right">
+                {{>nav list=header }}
+            </div>
+        </nav>
+    </header>
+    {{>divider}}
+    {{!--
+</div>
+<div class="page-block hero">
+    {{>hero data=hero}}
+</div>
+<div class="page-block">
+    <div class="row g-4  preview">
+        {{#each preview}}
+        <div class="col-6 ">
+            {{>preview}}
+        </div>
+        {{/each}}
+    </div>
+</div>
+<div class="page-block">
+    <main class="main row g-0">
+        <div class="col-12">
+            <div class="row g-0 list_header">
+                <div class="col-6">
+                    <h2 class="list_post">List of posts</h2>
+                </div>
+                <div class="col-6">
+                    <div class="but_list">
+                        {{#each categories}}
+                        <button class="categories_button ">{{text}}</button>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-7 list">
+            {{#each news}}
+            {{>cardPost}}
+            {{/each}}
+        </div>
+        <aside class="col-5 list_aside">
+            <div class="about">
+                <h4 class="about_title">About</h4>
+                <p class="about_text">{{about}}</p>
+            </div>
+
+            {{>list_link data=archive title="Archive"}}
+
+            {{>list_link data=social title="Social"}}
+
+</div>
+</aside>
+</main>
+</div>
+<div> --}}
+    {{>divider}}
+    <footer class="row ">
+        <div class="col-3">
+            {{>logo}}
+            <span class="copyright">Copyright 2023-2024</span>
+        </div>
+        {{#each footer}}
+        <div class="col-3">
+
+            <span class="foot-title">{{title}}</span>
+            {{>nav list=links isVertical=true}}
+        </div>
+        {{/each}}
+    </footer>
+</div>
