@@ -1,5 +1,7 @@
+
 <div class="nav {{#if isVertical}}nav-vertical{{else}}nav-inline{{/if}}">
-    {{#each list}}
+    <span class="foot-title">{{title}}</span>
+     {{#each list}}
     <a href="{{url}}" class="nav-link">{{text}}</a>
     {{/each}}
 </div>
