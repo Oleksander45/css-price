@@ -159,6 +159,10 @@ main{
   align-items: center;
   text-align: center;
   gap: var(--size24);
+  width: 330px;
+  height: 400px;
+  position: relative;
+ 
   
 }
 
@@ -189,6 +193,8 @@ main{
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--primery-fon);
+  position: absolute;
+  bottom: 0;
 }
 
 .card-button:hover {
@@ -231,4 +237,32 @@ main{
 }
 h1,p{
   margin: 0;
+}
+
+.modal{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 500px;
+  height: 100px;
+  position: fixed;
+  bottom: 40px; 
+  right: 24px; 
+  background-color: #212529;
+ 
+  
+  color: var(--primery-fon);
+  border-radius: var(--size12);
+ 
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 10;
+}
+
+.modal-picture {
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin-right: 10px;
 }
