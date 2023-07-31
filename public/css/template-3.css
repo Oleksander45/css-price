@@ -246,7 +246,7 @@ h1,p{
   width: 500px;
   height: 100px;
   position: fixed;
-  bottom: 40px; 
+  top: 40px; 
   right: 24px; 
   background-color: #212529;
  
@@ -258,6 +258,8 @@ h1,p{
   align-items: center;
   
   z-index: 10;
+  transition-property: background-color, top;
+  transition-duration: 3s;
 }
 
 .modal-picture {
@@ -265,4 +267,8 @@ h1,p{
   width: 80px;
   float: left;
   margin-right: 10px;
+}
+body:hover .modal{
+  top:90px;
+  background-color: aqua;
 }
